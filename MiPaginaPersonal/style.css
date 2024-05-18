@@ -5,16 +5,26 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #e3ee07;
+#titulos {
+    border: 2px solid #f5dd07;
+    width: 65vw;
+    margin: auto;
+}
+
+h1 {
+    background-color: #f5dd07;
     color: #2209de;
-    padding: 1em 0;
+    padding: 1em;
+    margin: auto;
     text-align: center;
 }
 
 .name {
     font-size: 30px;
-    color: #2209de;
+    color: #f5dd07;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
 }
 
 main {
@@ -38,10 +48,28 @@ h2 {
     align-items: center;
     padding: 1em;
     text-align: center;
+    border: 2px solid #f5dd07;
+    border-radius: 5%;
+}
+
+#logos:hover {
+    background-color: #15d5ee;
+    color: #2209de;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 1em;
+    transition: 0.5s;
 }
 
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+footer {
+    background-color: #e3ee07;
+    color: #2209de;
+    padding: 1em 0;
+    text-align: center;
 }
