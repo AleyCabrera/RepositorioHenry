@@ -1,0 +1,33 @@
+body {
+    background-color: #1d15bd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e3ee07;
+    color: #2209de;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+    color: #2209de;
+}
+
+main {
+    font-size: 1.2em;
+    color: rgb(239, 243, 243);
+    padding: 1em;
+}
+
+h2 {
+    background-color: rgb(39, 144, 235);
+    color: #f5dd07;
+}
+
+#titulo {
+    color: #f5dd07;
+}
