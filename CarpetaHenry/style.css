@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(86, 175, 227);
+}
+
+.fondo {
+    background-color: rgb(38, 208, 220);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.fondo1 {
+    background-color: rgb(52, 45, 169);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.miTexto {
+    color: white;
+    font-size: 14px;
+}
