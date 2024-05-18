@@ -6,6 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Se utiliza para que sea responsive y sea escalable-->
             <meta name="robots" content="Index-follow"> <!--ayuda a que el robot de los navegador nos ayude a buscar nuestra pagina-->
         <title>Mi Pagina Personal</title>
+        <link rel="stylesheet" type="text/css" href="./reset.css">
         <link rel="stylesheet" type="text/css" href="./style.css"> <!--Para llamar a nuestro css-->
     </head> <!--Se utiliza para el encabezado de la pagina-->
 <body>
@@ -41,9 +42,20 @@
         </section>
 
         <section id="logos">
-            <span>Html<img src="./img/html.png" alt="html" class="logo"></span>
-            <span>Css<img src="./img/css.png" alt="css" class="logo"></span>
-            <span>JavaScript<img src="./img/javascript.png" alt="javascript" class="logo"></span>
+            <div class="tarjetas">
+                <h4>HTML</h4>
+                <img src="./img/html.png" alt="html" id="logo">
+            </div>
+            
+            <div class="tarjetas">
+                <h4>CSS</h4>
+                <img src="./img/css.png" alt="css" id="logo">
+            </div>
+            
+            <div class="tarjetas">
+                <h4>JAVASCRIPT</h4>
+            <img src="./img/javascript.png" alt="javascript" id="logo">
+            </div>
         </section>
     </main>
 

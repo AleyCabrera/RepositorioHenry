@@ -1,0 +1,60 @@
+/* reset.css */
+
+/* Establecer márgenes y relleno en 0 */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos de fuente y color base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Establecer estilos de enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Restablecer estilos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Restablecer estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Restablecer estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Restablecer estilos de elementos de bloque */
+figure, figcaption, blockquote {
+    display: block;
+}
+
+/* Restablecer estilos de elementos de lista */
+dl, dd {
+    display: block;
+}
+
+/* Restablecer estilos de citas */
+blockquote {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
