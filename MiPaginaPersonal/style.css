@@ -31,3 +31,17 @@ h2 {
 #titulo {
     color: #f5dd07;
 }
+
+#logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
